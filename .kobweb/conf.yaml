@@ -1,0 +1,14 @@
+site:
+  title: "F-Delivery"
+
+server:
+  files:
+    dev:
+      contentRoot: "build/processedResources/js/main/public"
+      script: "build/dist/js/developmentExecutable/fdelivery.js"
+      api: "build/libs/fdelivery.jar"
+    prod:
+      script: "build/dist/js/productionExecutable/fdelivery.js"
+      siteRoot: ".kobweb/site"
+
+  port: 8100
